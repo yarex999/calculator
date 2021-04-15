@@ -1,5 +1,7 @@
 .calc__commands{
     grid-area: 1/1/3/7;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .calc__command{
@@ -10,6 +12,8 @@
     font-size: 20px;
     border: 0;
     color: white;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 
 }

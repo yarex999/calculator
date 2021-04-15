@@ -4,7 +4,7 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: blue;
+  background-color: whitesmoke;
 }
 .calc{
   background-color: #0C0C0D;
@@ -13,8 +13,13 @@
 }
 
 .calc__displays{
-display: flex;
-flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 padding: 5% 0.5%;
 }
 
