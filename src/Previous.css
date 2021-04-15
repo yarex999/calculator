@@ -1,0 +1,9 @@
+.calc__display-previous{
+    border:0;
+    text-align: right;
+    color: grey;
+    padding: 5px 2px;
+    font-size: 12px;
+    background-color: #0C0C0D;
+    margin: 2px;
+}

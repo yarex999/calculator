@@ -1,0 +1,24 @@
+.calc__commands{
+    grid-area: 1/1/3/7;
+    display: flex;
+}
+.calc__command{
+    width: 100%;
+    margin: 2px;
+    background-color: #4F5956;
+    border-radius: 3px;
+    font-size: 20px;
+    border: 0;
+    color: white;
+    transition: all 0.2s linear;
+
+}
+
+.calc__command:hover{
+    background-color: #222226;
+    font-size: 22px;
+}
+.calc__command:focus{
+    outline:none;
+    font-size: 25px;
+}

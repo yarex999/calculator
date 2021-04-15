@@ -1,0 +1,11 @@
+.calc__display-current{
+    text-align: right;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    font-size: 20px;
+    background-color: #0C0C0D;
+    border: 0;
+    color: white;
+    margin: 2px;
+}
+

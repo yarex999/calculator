@@ -1,0 +1,26 @@
+.calc__numbers{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-area: 3/1/11/7;
+}
+
+.calc__number{
+    margin: 2px;
+    background-color: #222226;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    transition: all 0.1s linear;
+}
+
+.calc__number:hover{
+    background-color: #4F5956;
+    font-size: 22px;
+}
+
+.calc__number:focus{
+    font-size: 25px;
+    outline: none;
+}
